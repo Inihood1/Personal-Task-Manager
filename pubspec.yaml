@@ -1,0 +1,41 @@
+name: personal_task_manager
+description: "A clean-architecture personal task manager built with Flutter, Riverpod, and Hive CE."
+# Prevents accidental publishing to pub.dev.
+publish_to: 'none'
+
+# App version (versionName+versionCode on Android).
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management (preferred by the brief). Riverpod 3, manual providers —
+  # no code generation, so the project compiles the instant it is cloned.
+  flutter_riverpod: ^3.3.2
+
+  # Local persistence. Hive Community Edition — the actively-maintained
+  # continuation of Hive v2 (the original `hive` package is abandoned).
+  hive_ce: ^2.19.3
+  hive_ce_flutter: ^2.3.4
+
+  # Value equality for the immutable domain entity (no boilerplate == / hashCode).
+  equatable: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended Flutter lint set (see analysis_options.yaml).
+  flutter_lints: ^6.0.0
+
+  # Mocking for unit tests without build_runner.
+  mocktail: ^1.0.4
+
+flutter:
+  uses-material-design: true

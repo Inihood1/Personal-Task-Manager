@@ -11,7 +11,7 @@ with **Hive**, backed by a full test suite across every layer.
 
 | | |
 |---|---|
-| **GitHub repository** | `<add your public repo URL here>` |
+| **GitHub repository** | [Inihood1/Personal-Task-Manager](https://github.com/Inihood1/Personal-Task-Manager) |
 | **APK (Google Drive)** | [Download release APK](https://drive.google.com/file/d/1nz9GXYJx7wW8JzC68-5BjvljEWda-IEU/view?usp=sharing) |
 
 > The APK is a universal (fat) release build (~47 MB), installable on any Android

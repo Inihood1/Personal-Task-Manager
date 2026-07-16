@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="personal_task_manager"
+        android:label="Personal Task Manager"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

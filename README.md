@@ -12,12 +12,11 @@ with **Hive**, backed by a full test suite across every layer.
 | | |
 |---|---|
 | **GitHub repository** | `<add your public repo URL here>` |
-| **APK (Google Drive)** | `<add your public Drive link here>` |
+| **APK (Google Drive)** | [Download release APK](https://drive.google.com/file/d/1nz9GXYJx7wW8JzC68-5BjvljEWda-IEU/view?usp=sharing) |
 
-> The compiled release APK is produced at
-> `build/app/outputs/flutter-apk/app-release.apk` (universal, ~47 MB). Upload
-> that file to Google Drive, set sharing to **Anyone with the link**, and paste
-> the link above.
+> The APK is a universal (fat) release build (~47 MB), installable on any Android
+> device. It is also produced locally at
+> `build/app/outputs/flutter-apk/app-release.apk` via `flutter build apk --release`.
 
 ---
 
